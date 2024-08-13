@@ -1,0 +1,128 @@
+* {
+    color: #3a2a3a;
+}
+
+body {
+    background-color: #dac2daac !important;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder !important;
+}
+
+#isiform {
+    border: 2px solid #3a2a3a;
+    border-radius: 5%;
+    background-color: #c29ec284;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media screen and (max-width: 320px) {
+    #isiform {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    #isiform {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    #isiform {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 550px) {
+    #isiform {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #isiform {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #isiform {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #isiform {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    #isiform {
+        width: 10%;
+    }
+}
+
+#logo {
+    text-align: center;
+}
+
+#email{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 25px;
+}
+
+#pass{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.lab {
+    font-size: medium;
+}
+
+#check-remember {
+    margin-bottom: 20px;
+    font-size: small;
+    padding-top: 15px;
+}
+
+#last {
+    text-align: center;
+    font-size: smaller;
+    padding-top: 20px;
+}
+
+#foot2 {
+    margin-left: 10px;
+    font-size: smaller;
+}
+
+#submit-form-log {
+    border-radius: 8%;
+    background-color: #8b5f8b;
+    color: white;
+    font-size: small;
+    margin-top: 15px;
+    padding-bottom: 5px;
+
+}
+
+#submit-form-sign {
+    border-radius: 8%;
+    background-color: #8b5f8b;
+    color: white;
+    font-size: small;
+    margin-top: 15px;
+    width: 30%;
+    padding-bottom: 5px;
+}

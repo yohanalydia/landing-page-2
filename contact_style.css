@@ -1,0 +1,198 @@
+* {
+    font-family: Calibri, Arial, Helvetica, Roboto, sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    cursor: url("https://i.imgur.com/bdUUmX0.png"), auto;
+    color: #3a2a3a;
+}
+
+header,
+footer {
+    background-color: #c29ec2;
+}
+
+.hr {
+    margin: 0px 0px;
+    height: 1px;
+    color: white;
+    background-color: white;
+    opacity: 0.5;
+}
+
+nav.navbar {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+a.navbar-brand {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: rgba(58, 42, 58, 0.2) !important;
+    border-radius: var(--bs-border-radius);
+    font-weight: bold !important;
+}
+
+.nav-pills a.nav-link {
+    color: white !important;
+}
+
+.nav-pills {
+    gap: 1rem !important;
+}
+
+.nav-underline .nav-link.active {
+    color: white !important;
+    border-width: 0rem;
+    margin: 0rem;
+}
+
+.nav-underline a.nav-link {
+    color: white;
+    border-width: 0.125rem;
+    border-radius: 0;
+    margin: 0rem;
+}
+
+.nav-item > a {
+    color: white;
+    font-size: 16px;
+}
+
+.navbar > .container {
+    padding: 0px 6px;
+}
+
+.dot {
+    opacity: 0%;
+}
+
+#footer {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: #3a2a3a;
+}
+
+.ft {
+    line-height: 8px;
+    gap: 50px;
+}
+
+#logofooter {
+    margin-bottom: 20px;
+}
+
+#submit-form {
+    font-family: Calibri, Arial, Helvetica, Roboto, sans-serif;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #8b5f8b;
+    color: azure;
+    cursor: pointer;
+    align-self: center;
+}
+
+#contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #e8dde8;
+    margin: 0 0;
+}
+
+.judul > h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #3a2a3a;
+}
+
+legend {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #3a2a3a;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 400px;
+    background-clip: padding-box;
+    border-top: 1px solid #3a2a3a;
+    border-right: 1px solid #3a2a3a;
+    border-bottom: 1px solid #3a2a3a;
+    border-left: 1px solid #3a2a3a;
+    box-shadow: none;
+}
+
+div.col.contact-right {
+    border: 4px dotted white;
+    padding: 20px 20px;
+    border-radius: 10%;
+    box-sizing: border-box;
+}
+
+#foot2 {
+    padding-top: 10px;
+}
+
+#foot1 {
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+    .contact-left{
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #row-sec {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-left{
+        text-align: left !important;
+        white-space: normal;
+        margin: 0;
+    }
+    div.col.contact-right{
+        width: 45%;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    div.col.contact-right{
+        width: 75%;
+        align-self: center;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 400px){
+    div.col.contact-right{
+        width: 75%;
+        align-self: center;
+        margin-top: 30px;
+    }
+
+    #girl{
+        display: none;
+    }
+}
+
+
+
+
